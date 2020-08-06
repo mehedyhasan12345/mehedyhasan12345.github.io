@@ -204,6 +204,9 @@ a.menu-logo:hover{
 .single-price-card .price{
     font-size: 30px;
 }
+.sign-up p {
+    border-bottom: none;
+}
 .sign-up-btn {
     padding: 10px 15px;
     border: none;
