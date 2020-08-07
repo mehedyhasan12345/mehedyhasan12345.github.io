@@ -12,6 +12,7 @@ body{
 h1 {
     font-size: 45px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 ul,li,h1,h2,h3,p{
     margin: 0;
@@ -153,6 +154,9 @@ a.menu-logo:hover{
     background: #333;
     min-height: 406px;
     position: relative;
+}
+.work-area h1{
+    text-transform: capitalize !important;
 }
 .work-single-card {
     width: 327px;
