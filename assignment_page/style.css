@@ -31,8 +31,7 @@ ul,li,h1,h2,h3,p{
     border-radius: 50% !important;
 }
 .container{
-    min-width: 960px;
-    max-width: 1370px;
+    max-width: 1360px;
     margin: auto;
 }
 
@@ -119,7 +118,7 @@ a.menu-logo:hover{
 
 .single-card {
     display: inline-block;
-    width: 320px;
+    width: 317px;
     margin-left: 19px;
     box-sizing: border-box;
     padding: 40px;
@@ -159,7 +158,7 @@ a.menu-logo:hover{
     text-transform: capitalize !important;
 }
 .work-single-card {
-    width: 327px;
+    width: 325px;
     display: inline-block;
     margin-left: 15px;
     float: left;
@@ -191,7 +190,7 @@ a.menu-logo:hover{
 
 /*price area css*/
 .single-price-card {
-    width: 400px;
+    width: 430px;
     display: inline-block;
     box-sizing: border-box;
     margin-top: 20px;
