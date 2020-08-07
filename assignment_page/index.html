@@ -7,15 +7,15 @@
     </head>
     <body>
         <!--menubar area start-->
-        <section class="menubar-area">
+        <section id="#top" class="menubar-area sticky-top">
             <div class="container">
                 <nav>
                     <ul>
-                        <li><a  class="menu-logo" href="">LOGO</a></li>
-                        <li><a href="">Team</a></li>
-                        <li><a href="">Work</a></li>
-                        <li><a href="">Price</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a  class="menu-logo" href="#top">LOGO</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#price">Price</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a href="">Dropdown &#65088;</a>
                             <ul class="dropdown">
                                 <li><a href="">option 1</a></li>
@@ -39,7 +39,7 @@
 
 
         <!--team area start-->
-        <section class="team-area padding-both">
+        <section id="team" class="team-area padding-both">
             <div class="container">
                 <h1 class="center margin-btm">Our Team</h1>
                 <p class="center margin-btm">
@@ -93,9 +93,9 @@
         
         
         <!--work area start-->
-        <section class="work-area padding-both">
+        <section id="work" class="work-area padding-both">
             <div class="container">
-                <span class="plus-sign">&#43;</span>
+                <a href=""><span class="plus-sign">&#43;</span></a>
                 <div class="work-single-card card-1">
                     <h1 class="margin-btm">Our Work</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis fugit, facilis molestiae, nostrum iste nihil neque debitis beatae dolorem excepturi incidunt laboriosam voluptas molestias aut nisi commodi autem! Ea amet voluptatibus ex illo quo, eveniet magni fugiat quia magnam ab aut, doloribus accusamus? Cum ipsa quae facere eos voluptas temporibus reprehenderit esse quas? Saepe ipsa porro iste consequatur soluta, maxime, error omnis dolores, odio eius temporibus voluptate voluptatem ab.</p>
@@ -139,7 +139,7 @@
         <!--work area end-->
         
         <!--Pricing area start-->
-        <section class="pricing-area center padding-both">
+        <section id="price" class="pricing-area center padding-both">
             <div class="container">
                <h1 class="margin-btm">PRICING</h1>
                <p class="margin-btm">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
@@ -183,7 +183,7 @@
         
         
         <!--Contact us area start-->
-        <section class="contact-area padding-both">
+        <section id="contact" class="contact-area padding-both">
             <div class="container">
                 <div class="contact-address">
                     <h2 class="margin-btm">Contact Us</h2>
@@ -202,13 +202,13 @@
                 <div class="contact-form">
                     <form action="" method="">
                        <label for="">Name</label><br>
-                        <input class='input-field' name="name" type="text" autocomplete="off"><br>
+                        <input class='input-field' name="name" type="text"><br>
                         
                         <label for="">Email</label><br>
-                        <input class='input-field' name="email" type="text" autocomplete="off"><br>
+                        <input class='input-field' name="email" type="text"><br>
                         
                         <label for="">Message</label><br>
-                        <input class='input-field' name="message" type="text" autocomplete="off"><br><br>
+                        <input class='input-field' name="message" type="text"><br><br>
                         
                         <input class="check-box" name="checkbox" type="checkbox" checked>
                         <label for=""> I Like it!</label>
@@ -230,7 +230,9 @@
         <section class="footer-area">
             <div class="container center">
                 <h3>Follow Us</h3>
+                <div class="gotop"><a href="#top">&#8593;</a></div>
                 <p>Powered by <a href="">CSE</a></p>
+                
             </div>
         </section>
         <!--footer area end-->

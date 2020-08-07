@@ -9,6 +9,10 @@ body{
     
 }
 /*default design*/
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
 ul,li,h1,h2,h3,p{
     margin: 0;
     padding: 0;
@@ -36,7 +40,12 @@ ul,li,h1,h2,h3,p{
 .menubar-area{
    background: #000;
 }
+.sticky-top {
 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 .menubar-area nav ul li{
     list-style: none;
     display: inline-block;
@@ -49,7 +58,7 @@ ul,li,h1,h2,h3,p{
     text-decoration: none;
     display: inline-block;
     padding: 14px 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .menubar-area nav ul li a.menu-logo{
     background: #009688;
@@ -204,9 +213,6 @@ a.menu-logo:hover{
 .single-price-card .price{
     font-size: 30px;
 }
-.sign-up p {
-    border-bottom: none;
-}
 .sign-up-btn {
     padding: 10px 15px;
     border: none;
@@ -283,6 +289,20 @@ input.check-box{
 }
 .footer-area a{
     color:#fff;
+}
+.footer-area h3{
+    display: inline-block;
+}
+.gotop a{
+    display: inline-block;
+    float: right;
+    padding: 4px 9px;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    
 }
 
 
